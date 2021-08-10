@@ -1,0 +1,259 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo a {}
+
+.logo a img {}
+
+nav {
+    width: 55%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+nav ul li {}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 12pt;
+    color: #626262;
+}
+
+.banner {
+    width: 90%;
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.feature {
+    width: 80%;
+    margin: auto;
+    padding: 130px 0;
+}
+
+.feature h5 {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    padding: 25px 0;
+    font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.feature h1 {
+    text-transform: capitalize;
+    color: #626262;
+    font-size: 30pt;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.feature p {
+    color: #626262;
+    font-size: 14pt;
+    margin: 35px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.lifestyle_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lifestyle_1 {
+    width: 47%;
+    margin-top: 100px;
+}
+
+.lifestyle_1 img {
+    width: 100%;
+}
+
+.lifestyle_1 h5 {
+    font-size: 12pt;
+}
+
+.lifestyle_1 h1 {
+    font-size: 24pt;
+    text-transform: none;
+}
+
+.lifestyle_1 p {
+    font-size: 12pt;
+}
+
+.signup {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+.signup_content {
+    width: 32%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.signup_content h1 {
+    font-size: 30pt;
+    font-weight: 100;
+    text-transform: none;
+    color: #333333;
+    margin-bottom: 100px;
+}
+
+.signup_content input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 100%;
+    padding: 10px 0
+    ;
+}
+
+.signup_content input::placeholder {
+    font-size: 12pt;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+}
+
+.signup_content input:focus {
+    outline: none;
+}
+
+.submit{
+    
+position: absolute;
+    
+bottom: 0;
+    
+right: 0;
+}
+.loadmore{
+
+/* height: 300px; */
+
+text-align: center;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-bottom: 130px;
+}
+.loadmore button{
+    
+background: transparent;
+    
+border: none;
+    
+border: 1px solid #626262;
+    
+padding: 15px 30px;
+    
+border-radius: 2px;
+    
+font-size: 12pt;
+font-family: 'Playfair Display', serif;
+color: #626262;
+font-weight: 500;
+}
+footer{
+    
+background-color: #f0f0f0;
+    
+height: 100px;
+    
+display: flex;
+    
+align-items: center;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+width: 23%;
+}
+.terms ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.terms ul li{
+    
+}
+.terms ul li a{
+    
+text-decoration: none;
+    
+color: #626262;
+    
+font-family: 'Playfair Display', serif;
+    
+font-weight: 600;
+}
+.social{
+
+width: 15%;
+}
+.social ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.social ul li{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.social ul li a{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
